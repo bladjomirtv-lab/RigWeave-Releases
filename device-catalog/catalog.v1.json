@@ -1,6 +1,6 @@
 {
   "schema": "rigweave-device-catalog-v1",
-  "revision": 4,
+  "revision": 5,
   "devices": [
     {
       "definition_id": "nollie.32",
@@ -91,7 +91,10 @@
       "ui": {
         "display_name": "Tuya",
         "subtitle": "WLAN-Geräte · Plugin",
-        "glyph": "WIFI"
+        "glyph": "WIFI",
+        "image_asset": "assets/overview_icons/tuya_provider.jpg",
+        "image_url": "https://raw.githubusercontent.com/bladjomirtv-lab/RigWeave-Releases/main/device-catalog/images/tuya.plugin.jpg",
+        "image_sha256": "dae66ae3e274df0ab7c9c079c4d1f6a3cd9882cab201ae365b086a8fec4c6593"
       }
     },
     {
