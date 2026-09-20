@@ -1,0 +1,34 @@
+{
+  "schema": "rigweave-device-catalog-v1",
+  "revision": 1,
+  "devices": [
+    {
+      "definition_id": "battletron.lightbar.3207958",
+      "runtime_key": "battletron",
+      "manufacturer": "Battletron",
+      "model": "LED Light Bar",
+      "plugin_id": "rigweave.provider.tuya",
+      "family_driver": "tuya-razer-lightbar-v1",
+      "transport": "network",
+      "verification": "experimental",
+      "capabilities": [
+        "lighting.rgb.frame",
+        "lighting.zones",
+        "network.local"
+      ],
+      "match": {
+        "network_product_id": "stmkcsykq3kheboa"
+      },
+      "lighting": {
+        "led_count": 16,
+        "max_fps": 10,
+        "layout": "line"
+      },
+      "ui": {
+        "display_name": "Battletron Light Bar",
+        "subtitle": "Action / LSC · WLAN",
+        "glyph": "WIFI"
+      }
+    }
+  ]
+}
