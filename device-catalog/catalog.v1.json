@@ -1,6 +1,6 @@
 {
   "schema": "rigweave-device-catalog-v1",
-  "revision": 1,
+  "revision": 2,
   "devices": [
     {
       "definition_id": "battletron.lightbar.3207958",
@@ -27,7 +27,10 @@
       "ui": {
         "display_name": "Battletron Light Bar",
         "subtitle": "Action / LSC · WLAN",
-        "glyph": "WIFI"
+        "glyph": "WIFI",
+        "image_asset": "assets/overview_icons/battletron_light_bar.jpg",
+        "image_url": "https://raw.githubusercontent.com/bladjomirtv-lab/RigWeave-Releases/main/device-catalog/images/battletron.lightbar.3207958.jpg",
+        "image_sha256": "7e7030dc0d944880ea39207247638e06bfd95220fe897325cd49f97f5973a01f"
       }
     }
   ]
