@@ -1,7 +1,99 @@
 {
   "schema": "rigweave-device-catalog-v1",
-  "revision": 3,
+  "revision": 4,
   "devices": [
+    {
+      "definition_id": "nollie.32",
+      "runtime_key": "nollie",
+      "manufacturer": "Nollie",
+      "model": "Nollie 32",
+      "plugin_id": "rigweave.provider.nollie",
+      "family_driver": "nollie32-v1",
+      "transport": "usb-hid",
+      "verification": "experimental",
+      "capabilities": [
+        "lighting.rgb.frame",
+        "lighting.zones",
+        "usb.hid"
+      ],
+      "match": {
+        "usb_vid": "16D5",
+        "usb_pid": [
+          "2A32",
+          "4714"
+        ]
+      },
+      "ui": {
+        "display_name": "Nollie 32",
+        "subtitle": "USB RGB Controller",
+        "glyph": "USB",
+        "image_asset": "assets/overview_icons/nollie_32_strimer.png",
+        "image_url": "https://raw.githubusercontent.com/bladjomirtv-lab/RigWeave-Releases/main/assets/device-library/nollie_32_strimer.png"
+      }
+    },
+    {
+      "definition_id": "gskill.rgb.ram",
+      "runtime_key": "ram",
+      "manufacturer": "G.Skill",
+      "model": "RGB RAM",
+      "plugin_id": "rigweave.provider.ram",
+      "family_driver": "ram-guard-v1",
+      "transport": "smbus",
+      "verification": "experimental",
+      "capabilities": [
+        "lighting.rgb.frame",
+        "lighting.zones"
+      ],
+      "ui": {
+        "display_name": "G.Skill RGB RAM",
+        "subtitle": "RAM Lighting",
+        "glyph": "RAM",
+        "image_asset": "assets/overview_icons/gskill_rgb_ram.png",
+        "image_url": "https://raw.githubusercontent.com/bladjomirtv-lab/RigWeave-Releases/main/assets/device-library/gskill_rgb_ram.png"
+      }
+    },
+    {
+      "definition_id": "philips.hue",
+      "runtime_key": "hue",
+      "manufacturer": "Philips",
+      "model": "Hue",
+      "plugin_id": "rigweave.provider.hue",
+      "family_driver": "hue-entertainment-v1",
+      "transport": "network",
+      "verification": "experimental",
+      "capabilities": [
+        "lighting.rgb.frame",
+        "lighting.zones",
+        "network.local"
+      ],
+      "ui": {
+        "display_name": "Philips Hue",
+        "subtitle": "Bridge · Entertainment-Bereiche",
+        "glyph": "WIFI",
+        "image_asset": "assets/overview_icons/philips_hue.png",
+        "image_url": "https://raw.githubusercontent.com/bladjomirtv-lab/RigWeave-Releases/main/assets/device-library/philips_hue.png"
+      }
+    },
+    {
+      "definition_id": "tuya.plugin",
+      "runtime_key": "tuya",
+      "manufacturer": "Tuya",
+      "model": "Smart Lighting",
+      "plugin_id": "rigweave.provider.tuya",
+      "family_driver": "tuya-local-v1",
+      "transport": "network",
+      "verification": "experimental",
+      "capabilities": [
+        "lighting.rgb.frame",
+        "lighting.zones",
+        "network.local"
+      ],
+      "ui": {
+        "display_name": "Tuya",
+        "subtitle": "WLAN-Geräte · Plugin",
+        "glyph": "WIFI"
+      }
+    },
     {
       "definition_id": "battletron.lightbar.3207958",
       "runtime_key": "battletron",
