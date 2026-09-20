@@ -1,6 +1,6 @@
 {
   "schema": "rigweave-device-catalog-v1",
-  "revision": 2,
+  "revision": 3,
   "devices": [
     {
       "definition_id": "battletron.lightbar.3207958",
@@ -30,7 +30,7 @@
         "glyph": "WIFI",
         "image_asset": "assets/overview_icons/battletron_light_bar.jpg",
         "image_url": "https://raw.githubusercontent.com/bladjomirtv-lab/RigWeave-Releases/main/device-catalog/images/battletron.lightbar.3207958.jpg",
-        "image_sha256": "7e7030dc0d944880ea39207247638e06bfd95220fe897325cd49f97f5973a01f"
+        "image_sha256": "7cca2e426263f754e269bf03863650c1fc114ec7dec87e2d39e5ff0381d1b6c5"
       }
     }
   ]
