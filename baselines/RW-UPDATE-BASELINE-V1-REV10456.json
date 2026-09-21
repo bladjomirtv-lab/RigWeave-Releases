@@ -1,0 +1,17 @@
+{
+  "schema": "rigweave.update-baseline.v1",
+  "baseline_id": "RW-UPDATE-BASELINE-V1-REV10456",
+  "locked": true,
+  "version": "0.5.0-alpha.15",
+  "revision": 10456,
+  "source_repository": "bladjomirtv-lab/FANRGB",
+  "source_commit": "1ed399afa03eedb3d704ec3ee70fcc189b5bc0bc",
+  "release_id": 392912173,
+  "release_tag": "v0.5.0-alpha.15",
+  "payload_name": "RigWeave_v0.5.0-alpha.15_REV10456.zip",
+  "payload_size_bytes": 188452351,
+  "payload_sha256": "8e9d6bd0078fc321e5d2da0acfa50b33c9bbe46b534da90d4bddca8a722f7744",
+  "signed_manifest_name": "FanRGB_update_manifest_alpha15_signed.json",
+  "signed_manifest_sha256": "a2d58147a5194728f5bb2eb2f42c89b6d5da6e0249691c9ead0d02e31c7d4f14",
+  "cutover_rule": "Permanent forward-update compatibility starts at this baseline. Pre-baseline development builds are excluded. V1 must never be redefined; a future architectural cutover requires a new baseline generation."
+}
